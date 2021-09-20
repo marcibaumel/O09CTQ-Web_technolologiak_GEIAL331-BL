@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="szamologepservlet" />
+        <module name="02gyak" />
       </profile>
     </annotationProcessing>
   </component>
