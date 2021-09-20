@@ -1,5 +1,25 @@
 <html>
+<head><title>Calculator</title></head>
 <body>
-<h2>Hello World Test from index.jsp!</h2>
+    <form method="post" action="/szamologep.do">
+        <input type="text" name="a"><br>
+        <input type="text" name="b"><br>
+
+        <select name="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+
+        <input type="submit" value="Submit">
+
+    </form>
+<%
+Double result = (Double) request.getAttribute("result");
+if(result != null){
+    System.out.println("Result: "+result);
+}
+%>
 </body>
 </html>
