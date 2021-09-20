@@ -1,0 +1,51 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+}
+
+div{
+    margin-top: 3rem;
+}
+
+.elso{
+    color: brown;
+}
+
+#yellow-margin{
+    border: 5px solid yellow;
+    border-radius: 30px;
+    margin: 2rem;
+}
+
+.p-v{
+    margin: 0;
+    padding: 1rem;
+}
+
+#yellow-margin2{
+    border: 5px solid yellow;
+    border-radius: 30px;
+    margin: 2rem;
+    color: green;
+    font-size: 50px;
+}
+
+.twpx-font{
+    font-size: 20px;
+}
+
+.color1{
+    padding: 0;
+    margin-left: auto;
+    height: 50px;
+    width: 250px;
+    background-color: red;
+}
+
+.color2{
+    padding: 0;
+    margin-right: auto;
+    height: 50px;
+    width: 250px;
+    background-color: green;
+}

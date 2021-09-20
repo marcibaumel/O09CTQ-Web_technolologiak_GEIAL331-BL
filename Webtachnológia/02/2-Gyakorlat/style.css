@@ -1,0 +1,31 @@
+.first-div{
+    text-align: center;
+}
+
+#hello{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    background-color: aqua;
+    margin: 3rem;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+    color: black;
+  }
+
+#test-btn{
+    background-color: #364436; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
