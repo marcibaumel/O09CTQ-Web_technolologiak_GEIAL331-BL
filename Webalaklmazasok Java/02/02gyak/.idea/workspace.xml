@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="New .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ResultDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/szamologepservlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/szamologepservlet/WEB-INF/classes/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet/WEB-INF/classes/Servlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/szamologepservlet/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="Working jsp and target" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631610459268</updated>
       <workItem from="1632122510763" duration="8871000" />
-      <workItem from="1632211563542" duration="5522000" />
+      <workItem from="1632211563542" duration="5669000" />
     </task>
     <task id="LOCAL-00001" summary="Working servlet">
       <created>1632125377988</created>
@@ -131,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632215146510</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Working jsp and target">
+      <created>1632217244466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632217244466</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +152,7 @@
     <MESSAGE value="Working operators" />
     <MESSAGE value="New comments and .gitignore" />
     <MESSAGE value="New .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="New .gitignore" />
+    <MESSAGE value="Working jsp and target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working jsp and target" />
   </component>
 </project>
