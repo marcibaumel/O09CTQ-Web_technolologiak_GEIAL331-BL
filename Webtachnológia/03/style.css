@@ -1,0 +1,36 @@
+#title .format{
+    background-color: gray;
+}
+
+.without-line{
+    text-decoration: none;
+}
+
+#fname{
+    background: yellow;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#lname{
+    background: yellow;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit-btn{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.with-background{
+    background-color:#BDB76B;
+    color:#ffffff;
+}
