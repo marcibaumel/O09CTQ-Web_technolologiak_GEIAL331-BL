@@ -1,25 +1,27 @@
 <html>
-<head><title>Calculator</title></head>
+<head>
+    <title>Calculator</title>
+</head>
 <body>
-    <form method="post" action="/szamologep.do">
-        <input type="text" name="a"><br>
-        <input type="text" name="b"><br>
-
-        <select name="operators">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="/">/</option>
-            <option value="*">*</option>
-        </select>
-
-        <input type="submit" value="Submit">
-
-    </form>
 <%
-Double result = (Double) request.getAttribute("result");
-if(result != null){
-    System.out.println("Result: "+result);
-}
+    Double result = (Double) request.getAttribute("result");
+
+    String resultText = (result == null) ?
+            "" : "result " + result.toString();
 %>
+<form method="post" action="szamologep.do">
+    <input type="text" name="a" /><br>
+    <input type="text" name="b" /><br>
+    <select name="operator">
+        <option value="+" /> +
+        <option value="-" /> -
+        <option value="*" /> *
+        <option value="/" /> /
+    </select><br>
+
+    <%= resultText %>
+    <input type="submit" /><br>
+</form>
+
 </body>
 </html>
