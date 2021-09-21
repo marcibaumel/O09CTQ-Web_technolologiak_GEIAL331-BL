@@ -17,8 +17,21 @@ public class Servlet2 extends HttpServlet{
         String operator = req.getParameter("operator");
 
         Double result = 0.0;
+
         if ("+".equals(operator)) {
             result = Double.parseDouble(aString) + Double.parseDouble(bString);
+        }
+
+        if ("*".equals(operator)) {
+            result = Double.parseDouble(aString) * Double.parseDouble(bString);
+        }
+
+        if ("/".equals(operator)) {
+            result = Double.parseDouble(aString) / Double.parseDouble(bString);
+        }
+
+        if ("-".equals(operator)) {
+            result = Double.parseDouble(aString) - Double.parseDouble(bString);
         }
 
         // eltarolja a keresbe, hogy a jsp is elerje
