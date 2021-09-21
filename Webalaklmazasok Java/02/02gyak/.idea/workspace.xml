@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="New .gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ResultDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/szamologepservlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/szamologepservlet/WEB-INF/classes/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet/WEB-INF/classes/Servlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/szamologepservlet/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/szamologepservlet/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631610459268</updated>
       <workItem from="1632122510763" duration="8871000" />
-      <workItem from="1632211563542" duration="3256000" />
+      <workItem from="1632211563542" duration="5522000" />
     </task>
     <task id="LOCAL-00001" summary="Working servlet">
       <created>1632125377988</created>
@@ -95,7 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1632214761952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New .gitignore">
+      <created>1632214859447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632214859447</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New .gitignore">
+      <created>1632215048791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632215048791</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New .gitignore">
+      <created>1632215098435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632215098435</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New .gitignore">
+      <created>1632215146510</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632215146510</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

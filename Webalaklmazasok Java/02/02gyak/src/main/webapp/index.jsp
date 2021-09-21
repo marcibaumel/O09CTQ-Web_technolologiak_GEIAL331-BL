@@ -5,7 +5,6 @@
 <body>
 <%
     Double result = (Double) request.getAttribute("result");
-
     String resultText = (result == null) ?
             "" : "result " + result.toString();
 %>
