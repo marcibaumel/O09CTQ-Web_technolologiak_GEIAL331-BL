@@ -18,18 +18,22 @@ public class Servlet2 extends HttpServlet{
 
         Double result = 0.0;
 
+        //Working plus operator
         if ("+".equals(operator)) {
             result = Double.parseDouble(aString) + Double.parseDouble(bString);
         }
 
+        //Working multiply operator
         if ("*".equals(operator)) {
             result = Double.parseDouble(aString) * Double.parseDouble(bString);
         }
 
+        //Working divine operator
         if ("/".equals(operator)) {
             result = Double.parseDouble(aString) / Double.parseDouble(bString);
         }
 
+        //Working minus operator
         if ("-".equals(operator)) {
             result = Double.parseDouble(aString) - Double.parseDouble(bString);
         }
