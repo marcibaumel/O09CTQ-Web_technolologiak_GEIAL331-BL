@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="Working operators">
+    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="New .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1y7lMGw0KH6jXAWPA0VtGTnDaNx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631610459268</updated>
       <workItem from="1632122510763" duration="8871000" />
-      <workItem from="1632211563542" duration="3021000" />
+      <workItem from="1632211563542" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="Working servlet">
       <created>1632125377988</created>
@@ -79,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632214228881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New comments and .gitignore">
+      <created>1632214637427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632214637427</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New .gitignore">
+      <created>1632214761952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632214761952</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +118,8 @@
     <MESSAGE value="Servlet2" />
     <MESSAGE value="Working plus operator" />
     <MESSAGE value="Working operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working operators" />
+    <MESSAGE value="New comments and .gitignore" />
+    <MESSAGE value="New .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="New .gitignore" />
   </component>
 </project>
