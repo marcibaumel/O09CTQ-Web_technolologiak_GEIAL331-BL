@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="Working jsp and target">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NotSupportedOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Szamologep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResultDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="72f57167-a800-4fa4-ba99-67b8634e0c59" name="Changes" comment="Final solution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +49,7 @@
       <updated>1631610459268</updated>
       <workItem from="1632122510763" duration="8871000" />
       <workItem from="1632211563542" duration="5669000" />
-      <workItem from="1632294138437" duration="1109000" />
+      <workItem from="1632294138437" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="Working servlet">
       <created>1632125377988</created>
@@ -135,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632217244466</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final solution">
+      <created>1632295949343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632295949343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +161,7 @@
     <MESSAGE value="New comments and .gitignore" />
     <MESSAGE value="New .gitignore" />
     <MESSAGE value="Working jsp and target" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working jsp and target" />
+    <MESSAGE value="Final solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final solution" />
   </component>
 </project>
