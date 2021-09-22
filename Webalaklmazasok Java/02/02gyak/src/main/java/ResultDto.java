@@ -9,53 +9,41 @@ public class ResultDto {
     private Double result;
 
 
-    public Double getResult() {
-        return result;
-    }
-
-    public void setResult(Double result) {
-        this.result = result;
-    }
-
-
-
     public String getA() {
-        return a;
+        return (a != null) ? a : "";
     }
-
     public void setA(String a) {
         this.a = a;
     }
-
     public String getB() {
-        return b;
+        return (b != null) ? b : "";
     }
-
     public void setB(String b) {
         this.b = b;
     }
-
     public String getOperator() {
         return operator;
     }
-
     public void setOperator(String operator) {
         this.operator = operator;
     }
-
     public List<String> getErrorList() {
         return errorList;
     }
-
     public void setErrorList(List<String> errorList) {
         this.errorList = errorList;
     }
-
     public boolean isError() {
         return error;
     }
-
     public void setError(boolean error) {
         this.error = error;
+    }
+
+    public Double getResult() {
+        return result;
+    }
+    public void setResult(Double result) {
+        this.result = result;
     }
 }

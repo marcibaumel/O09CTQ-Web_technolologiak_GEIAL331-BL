@@ -4,23 +4,35 @@
 </head>
 <body>
 <%
-    Double result = (Double) request.getAttribute("result");
+    // ha servettol jott, akkor van, ha elso keres, akkor nincs
+
+    szamologepservlet.ResultDto result = (request.getAttribute("result") != null) ?
+            (szamologepservlet.ResultDto) request.getAttribute("result") :
+            new szamologepservlet.ResultDto();
+
+
+
     String resultText = (result == null) ?
-            "" : "result " + result.toString();
+            "" : "result " + result.getResult().toString();
 %>
-<form method="post" action="szamologep.do">
-    <input type="text" name="a" /><br>
-    <input type="text" name="b" /><br>
+
+ver: 0.5
+<form method="post" action="/szamologepszervlet/szamologep.do">
+    <input type="text" name="a" value="<%= result.getA() %>"/><br>
+    <input type="text" name="b" value="<%= result.getB() %>"/><br>
     <select name="operator">
-        <option value="+" /> +
-        <option value="-" /> -
-        <option value="*" /> *
-        <option value="/" /> /
+        <option value="+" <%="+".equals(result.getOperator())? "selected" : ""%> > +
+        <option value="-" <%="-".equals(result.getOperator())? "selected" : ""%> > -
+        <option value="*" <%="*".equals(result.getOperator())? "selected" : ""%> > *
+        <option value="/" <%="/".equals(result.getOperator())? "selected" : ""%> > /
     </select><br>
 
-    <%= resultText %>
+    <%= resultText %> <br>
     <input type="submit" /><br>
 </form>
+
+
+
 
 </body>
 </html>
