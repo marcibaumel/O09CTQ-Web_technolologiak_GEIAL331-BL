@@ -1,0 +1,10 @@
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+
+#carouselExampleControls{
+    width: 450px;
+    margin:0 auto;
+}
