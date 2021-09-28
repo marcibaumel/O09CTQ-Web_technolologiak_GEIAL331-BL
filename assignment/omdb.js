@@ -19,7 +19,7 @@ function getOmdbData(){
 
 var realData;
 
-$.getJSON('http://www.omdbapi.com/?apikey=f51c1d39&t=Shrek', function(data) {
+$.getJSON('http://www.omdbapi.com/?apikey=f51c1d39&t=Kate', function(data) {
     console.log(data.Title);
     realData = data; 
 });

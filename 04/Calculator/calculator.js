@@ -25,7 +25,7 @@ app.get("/fullCalculator", function(req, res){
 });
 
 app.post("/fullCalculator",function(req, res){
-    var num1 =Number(req.body.num1);
+    var num1 = Number(req.body.num1);
     var num2 = Number(req.body.num2);
     var op = req.body.operator;
 
