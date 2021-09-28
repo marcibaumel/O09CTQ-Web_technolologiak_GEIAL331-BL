@@ -1,10 +1,41 @@
+body{
+    background-color: #FFE3AA;
+}
+
+.navbar{
+    background-color: #D4B16A;
+}
+
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
 
-
-#carouselExampleControls{
-    width: 450px;
-    margin:0 auto;
+#home-page{
+    margin-top: 2rem;
 }
+
+.phone-img{
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(25deg);
+}
+
+#des-texts{
+    margin-left: 2rem;
+}
+
+.font-set{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title-text{
+    font-weight: 700;
+    font-size: 3.5rem;  
+    margin-bottom: 2rem;  
+}
+
+.about-text{
+    font-size: 1.5rem;
+}
+
