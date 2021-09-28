@@ -1,13 +1,16 @@
 body{
     background-color: #FFE3AA;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
     background-color: #D4B16A;
+    width: 100%;
 }
 
 .navbar-section{
-    width: 100%;
+    width: auto;
 }
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -15,7 +18,9 @@ body{
 }
 
 #home-page{
+    margin: 0;
     margin-top: 2rem;
+    padding: 0;
     width: 100%;
     height: 100%;
 }
@@ -23,15 +28,28 @@ body{
 .phone-img{
     margin-left: auto;
     margin-right: auto;
+    width: auto;
+    height: auto;
+
+}
+
+.img-p{
+    right: 150px;
     transform: rotate(25deg);
 }
 
 #des-texts{
-    margin-left: 2rem;
+    margin-left: 0rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 .font-set{
     font-family: 'Ubuntu', sans-serif;
+}
+
+.row{
+    margin: 0;
 }
 
 #title-text{
