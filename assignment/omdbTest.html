@@ -40,7 +40,7 @@
  
   <section id="omdb-form">
     
-      <div class="form-group">
+      <div class="form-group font-set">
         <label for="inputFilmTitle">Film title</label>
         <input type="text" class="form-control" id="inputFilmTitle" aria-describedby="titleHelp" placeholder="Enter film title">
         <small id="titleHelp" class="form-text text-muted">Please give the correct title.</small>
@@ -48,7 +48,8 @@
       <div class="form-group mt-3">
         <label for="inputFilmYear">Password</label>
         <input type="number" class="form-control" id="inputFilmYear" placeholder="Film Release Year">
-        <small id="yearHelp" class="form-text text-muted">The year has to be between 1950 and 2021.</small>
+        <small id="yearHelp" class="form-text text-muted">The year has to be between 1950 and 2021. </small>
+        <small id="yearHelp" class="form-text text-muted">The Free API I used for this project <a class="about-link-style" href="http://www.omdbapi.com/">Omdb API</a>.</small>
       </div>
       <button type="submit" id="omdb-submit-btn" class="btn btn-primary">Search</button>
     
@@ -56,7 +57,7 @@
 
   <section id="omdb-table-section">
     <div>
-    <table id="omdb-table">
+    <table id="omdb-table" class="font-set table-font-style">
         <tbody>
           <tr class="omdb-row">
             <td><img id="film-poster" src="" ></td>

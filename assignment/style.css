@@ -44,8 +44,27 @@ body{
     margin-bottom: 2rem;
 }
 
+.about-link-style{
+    text-decoration: none;
+    color: #D4B16A;
+    font-weight: 600;
+}
+
+.about-link-style:hover { color: #000000; } 
+
 .font-set{
     font-family: 'Ubuntu', sans-serif;
+}
+
+.ul-text{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.table-font-style{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .row{
