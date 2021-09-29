@@ -22,9 +22,9 @@ var realData;
 function getData(){
     var name =$("#inputFilmTitle").val();
     var year = $("#inputFilmYear").val();
-    console.log(name);
+    //console.log(name);
     $.getJSON("http://www.omdbapi.com/?apikey=f51c1d39&t="+name+"&year="+year, function(data) {
-    console.log(data.Title);
+    //console.log(data.Title);
     realData = data; 
 });
 }
@@ -32,8 +32,10 @@ function getData(){
 
 $("#omdb-submit-btn").click(function(){
     getData();
-    
-    if(typeof realData.Title !== 'undefined'){
+
+    //console.log(realDdata.Title);
+
+    if(typeof realData.Title === 'undefined'){
         alert("Somethings went wrong! Check your answers. ");
     }
    
@@ -43,6 +45,8 @@ $("#omdb-submit-btn").click(function(){
     $("#film-title").text(realData.Title);
     $("#film-release").text(realData.Year);
     $("#film-runtime").text(realData.Runtime);
+
+    data = null;
 });
 
 function setTableBorder(){
