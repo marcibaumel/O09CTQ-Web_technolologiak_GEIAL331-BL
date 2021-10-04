@@ -45,6 +45,7 @@ function setTableBorder(){
 }
 */
 
+
 var realData;
 const apiUrl = "http://www.omdbapi.com/?apikey=f51c1d39&t=";
 
@@ -76,10 +77,16 @@ function setOmdbData(){
     var releaseYear = $("#inputFilmYear").val();
    
     getOmdbData(title, releaseYear).then(function(returndata){
-        if(returndata.response == "False"){
+        if(returndata.response == "False" || releaseYear<1950 || releaseYear>2021){
             alert("Somethings went wrong! Check your answers. ");
+            $("#omdb-table").removeClass("omdb-border");
+            $("#film-poster").attr("src","");
+            $("#film-title").text("");
+            $("#film-release").text("");
+            $("#film-runtime").text("");
         }
         else{   
+            $("#omdb-table").addClass("omdb-border");
             $("#film-poster").attr("src",returndata.poster);
             $("#film-title").text(returndata.title);
             $("#film-release").text(returndata.year);
