@@ -3,16 +3,22 @@ const imgUrl = "/imgs/phone2.png";
 //$("#phone-img").fadeIn();
 
 
-const images = document.getElementsByTagName("img");
 
-for (let image of images) {
-  image.addEventListener("load", fadeImg);
-  image.style.opacity = "0";
-}
-
-function fadeImg () {
-  this.style.transition = "opacity 2s";
-  this.style.opacity = "1";
-}
+$("#phone-img").load(function(){
+  $("#phone-img").fadeIn();
+})
 
 */
+$(".img-p").mouseover(function(){
+  $(this).animate({
+    height: '+=20px',
+    width: '+=20px'
+  })
+});
+
+$(".img-p").mouseout(function(){
+  $(this).animate({
+    height: '-=20px',
+    width: '-=20px'
+  })
+});
