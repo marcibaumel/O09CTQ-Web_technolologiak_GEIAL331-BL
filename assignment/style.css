@@ -30,7 +30,8 @@ body{
     margin-right: auto;
     width: auto;
     height: auto;
-    padding-right: 5rem;
+    padding-right: 6rem;
+    margin-left: 0;
 
 }
 
@@ -41,7 +42,7 @@ body{
 }
 
 #des-texts{
-    margin-left: 1rem;
+    margin-left: 0rem;
     margin-right: auto;
     margin-bottom: 2rem;
 }
