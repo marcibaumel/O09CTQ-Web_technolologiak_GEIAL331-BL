@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>03 Gyakorlat</title>
+    <title>05 Gyakorlat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="title-part">
+        <h1>Tanuló Validáció</h1>
+    </div>
+    <div id="form-part">
+    <form id="form">
+        <label for="nameStudent">Name:</label><br>
+        <input type="text" id="nameStudent" name="nameStudent" required><br><br>
+        <label for="neptunCode">Neptunk kód:</label><br>
+        <input type="text" id="neptunCode" name="neptunCode" required><br><br>
+        <label for="birthday">Születésnap:</label><br>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+        <label for="birthPlace">Születés hely::</label><br>
+        <input type="text" id="birthPlace" name="birthPlace" required><br><br>
+        <label for="motherName">Anya neve:</label><br>
+        <input type="text" id="motherName" name="motherName" required><br><br>
+        <label for="address">Lakcím:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+        <label for="age">Életkor:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        <label for="school">Iskola:</label><br>
+        <input type="text" id="school" name="school" required><br><br>
+        <label for="favColor">Kedvenc színe:</label><br>
+        <input type="color" id="favColor" name="favColor" required><br><br>
+        
+        <button onclick="Validation()">Submit</button>
+    </form>
+    </div>
+
+    <div>
+
+    </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/index.js"></script>
 </body>

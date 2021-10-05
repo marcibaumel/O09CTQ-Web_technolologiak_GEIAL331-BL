@@ -1,0 +1,12 @@
+#title-part{
+    text-align: center;
+}
+
+#form-part{
+    text-align: center;
+}
+
+
+.wrong-data{
+    border:3px solid red;
+}
