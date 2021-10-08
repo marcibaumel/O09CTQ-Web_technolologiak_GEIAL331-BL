@@ -1,13 +1,13 @@
 $(".img-p").mouseover(function(){
   $(this).animate({
-    height: '+=20px',
-    width: '+=20px'
+    height: '+=150px',
+    width: '+=100px'
   })
 });
 
 $(".img-p").mouseout(function(){
   $(this).animate({
-    height: '-=20px',
-    width: '-=20px'
-  })
+    height: '-=150px',
+    width: '-=100px'
+  }, 1000)
 });

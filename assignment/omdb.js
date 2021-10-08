@@ -1,50 +1,6 @@
 /*
-//Draft JS:
-
-$("#omdb-submit-btn").click(function(){
-    $.getJSON('http://www.omdbapi.com/?apikey=f51c1d39&t=Kate', function(data) {
-    alert("hello");
-    //alert(data.Title);
-    //$("#poster").attr("src",data.Poster);
-    //$('.imgTest').prepend('<img id="theImg" src="'+data.Poster+'" />').fadeIn(3000);
-
-    });
-});
-
-function getOmdbData(){
-    $.getJSON('http://www.omdbapi.com/?apikey=f51c1d39&t=Kate', function(data) {
-    console.log(data.Title);
-});}
-
-function getData(){
-    var name =$("#inputFilmTitle").val();
-    var year = $("#inputFilmYear").val();
-   
-    $.getJSON("http://www.omdbapi.com/?apikey=f51c1d39&t="+name+"&year="+year).then(function(data) {
-        realData = data; 
-    });
-
-    if(realData.Response === "False"){
-        alert("Somethings went wrong! Check your answers. ");
-    }
-    else{
-        
-        $("#film-poster").attr("src",realData.Poster);
-        $("#film-title").text(realData.Title);
-        $("#film-release").text(realData.Year);
-        $("#film-runtime").text(realData.Runtime);
-        //setTableBorder();
-   }
-}
-
-function setTableBorder(){
-    console.log($("#film-title").text());
-    if($("#film-title").text() != ""){
-        $("#omdb-table").addClass("omdb-border");
-    }
-}
+OMDB API CALLING JS CLASS
 */
-
 
 var realData;
 const apiUrl = "http://www.omdbapi.com/?apikey=f51c1d39&t=";
@@ -73,9 +29,11 @@ $("#omdb-submit-btn").click(function(){
 });
 
 function setOmdbData(){
+    //Input values
     var title =$("#inputFilmTitle").val();
     var releaseYear = $("#inputFilmYear").val();
    
+    //Get the JSON from OMDB Api
     getOmdbData(title, releaseYear).then(function(returndata){
         if(returndata.response == "False" || releaseYear<1950 || releaseYear>2021){
             alert("Somethings went wrong! Check your answers. ");
@@ -92,9 +50,9 @@ function setOmdbData(){
             $("#film-release").text(returndata.year);
             $("#film-runtime").text(returndata.runtime);
        }
-       $("#inputFilmTitle").val("");
-       $("#inputFilmYear").val("");
-    });
 
-    
+    //Set input values null
+    $("#inputFilmTitle").val("");
+    $("#inputFilmYear").val("");
+    });  
 }
